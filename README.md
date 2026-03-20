@@ -5,7 +5,7 @@
 
 <br>
 
-Aos 25 anos, atuo resolvendo desafios complexos na ponte entre dados inacessíveis e sistemas de negócio. Meu foco é extrair, tratar e disponibilizar dados através de automações robustas (RPA Web) e construir a infraestrutura de backend necessária para que essas informações fluam com segurança, agilidade e escalabilidade em ambientes Cloud.
+Aos 25 anos, atuo resolvendo desafios complexos na ponte entre dados inacessíveis e sistemas de negócio. Meu foco é extrair, tratar e disponibilizar dados através de automações robustas (RPA Web) e construir a infraestrutura de backend necessária, usando **Python e C# (.NET)**, para que essas informações fluam com segurança, agilidade e escalabilidade em ambientes Cloud.
 
 Construir robôs de extração vai muito além de buscar uma classe no HTML. Minha especialidade está em **contornar as complexidades estruturais modernas da web**, lidando ativamente com Web Application Firewalls (AWS WAF), injeções dinâmicas de JS, concorrência assíncrona e entrega limpa através de APIs estruturadas.
 
@@ -16,10 +16,11 @@ Construir robôs de extração vai muito além de buscar uma classe no HTML. Min
 Aqui estão as ferramentas e tecnologias que utilizo diariamente para desenhar e implementar minhas soluções:
 
 **Linguagens & Backend**
-- **Python** (Linguagem Principal)
-- **FastAPI** (Construção de APIs assíncronas de alta performance)
+- **Python** (Linguagem Principal para automações complexas)
+- **C# / .NET (ASP.NET Core)** (Sistemas corporativos e arquiteturas robustas baseadas em microsserviços)
+- **FastAPI** (Construção de APIs Python assíncronas de alta performance)
 - **Pydantic** (Validação e tipagem forte em fluxos de dados)
-- **RESTful APIs** (Design e arquitetura)
+- **RESTful APIs** (Design, integrações de legados e microsserviços)
 
 **Automação, Extração e RPA**
 - **Playwright** (Motor principal para automações assíncronas severas)
@@ -39,9 +40,9 @@ Aqui estão as ferramentas e tecnologias que utilizo diariamente para desenhar e
 Ao longo da minha trajetória, tenho atuado em frentes corporativas desenvolvendo motores de coleta que alimentam pipelines essenciais. De forma geral, minhas entregas englobam:
 
 *   **Scrapers de Alta Complexidade:** Robôs que acessam plataformas governamentais, superam telas de login, navegam gerando evidências visuais (prints mapeados em base64) e capturam históricos de dados de forma estritamente automatizada e invisível aos bloqueios básicos.
-*   **APIs Orientadas a Background:**  Como robôs precisam de tempo para rodar e o ecossistema HTTP não pode travar, desenvolvo APIs em FastAPI preparadas para enfileirar tarefas pesadas em background via mensageria ou polling, retornando status em tempo real.
+*   **APIs Orientadas a Background e Microsserviços:** Como robôs precisam de tempo para rodar e o ecossistema HTTP não pode travar, desenvolvo APIs tanto em **Python (FastAPI)** quanto em **C# (ASP.NET Core)** preparadas para enfileirar tarefas pesadas em background via mensageria. Construo pontes entre aplicações C# orientadas ao domínio corporativo e módulos extratores em Python.
 *   **Infraestrutura Desacoplada (Clean Architecture):** Meus motores de navegação são totalmente separados das lógicas de negócio e dos endpoints de disparo. Se o layout de um sistema externo muda hoje, a classe principal e a API seguem blindadas, respeitando o princípio de Responsabilidade Única (S.O.L.I.D).
-*   **Soluções Escaláveis:** Projetos desenvolvidos para rodar múltiplas requisições (múltiplos robôs virtuais) de forma concorrente sem sacrificar as CPUs e RAM dos containers.
+*   **Soluções Escaláveis:** Projetos desenvolvidos para rodar múltiplas requisições de forma concorrente sem sacrificar as CPUs e RAM dos containers.
 
 ---
 
